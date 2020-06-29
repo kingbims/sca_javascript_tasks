@@ -47,7 +47,7 @@ class item{
     }
 }
 
-let check = () => {
+check = () => {
     if(input.value != ""){
         new item(input.value);
         input.value = "";

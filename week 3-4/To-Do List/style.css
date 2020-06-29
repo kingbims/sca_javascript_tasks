@@ -10,9 +10,9 @@ body {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 60px;
     font-weight: 50;
-    margin: 1rem 0 3rem;
+    margin: 20px 0 30px;
     text-align: center;
     color: white;
     font-family: 'Hind Siliguri', sans-serif;
@@ -32,14 +32,14 @@ h1 {
 }
 
 .input_div .input{
-    padding: 0.5rem 1rem;
+    padding: 5px 10px;
     height: 50px;
     outline: none;
     background-color: white;
     border: none;
     width: 450px;
-    font-size: 1.15rem;
-    margin: 0.25rem;
+    font-size: 25px;
+    margin: 15px;
     border-radius: 25px;
 }
 
@@ -50,7 +50,7 @@ h1 {
     outline: none;
     border: none;
     color: white;
-    margin: 0.25rem;
+    margin: 5px;
     background-color: black;
     cursor: pointer;
 }
@@ -65,12 +65,12 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 20px;
 }
 
 .item{
-    padding: 0.5rem;
-    margin-bottom: 1.5rem;
+    padding: 5px;
+    margin-bottom: 15px;
     border-bottom: 4px solid black;
 }
 
@@ -80,12 +80,12 @@ h1 {
     color: #fff;
     border: none;
     width: 350px;
-    font-size: 1.4rem;
+    font-size: 40px;
 }
 
 .updateButton{
-    font-size: 1.6rem;
-    margin: 0 0.5rem;
+    font-size: 28px;
+    margin: 10px;
     font-family: 'Hind Siliguri', sans-serif;
     background: none;
     outline: none;
@@ -95,7 +95,7 @@ h1 {
 }
 
 .deleteButton{
-    font-size: 1.6rem;
+    font-size: 28px;
     font-family: 'Hind Siliguri', sans-serif;
     background: none;
     outline: none;
