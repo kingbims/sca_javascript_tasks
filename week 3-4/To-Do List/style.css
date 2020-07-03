@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+        height: 100%;
+        background-color: yellow;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 50;
+    margin: 20px 0 30px;
+    text-align: center;
+    color: white;
+    font-family: 'Hind Siliguri', sans-serif;
+
+}
+
+.styling {
+    font-weight: 800;
+    color: black;
+}
+
+.input_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.input_div .input{
+    padding: 5px 10px;
+    height: 50px;
+    outline: none;
+    background-color: white;
+    border: none;
+    width: 450px;
+    font-size: 25px;
+    margin: 15px;
+    border-radius: 25px;
+}
+
+.addButton{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    color: white;
+    margin: 5px;
+    background-color: black;
+    cursor: pointer;
+}
+
+.addButton:hover{
+    opacity: 0.7;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.item{
+    padding: 5px;
+    margin-bottom: 15px;
+    border-bottom: 4px solid black;
+}
+
+.item_input{
+    background: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    width: 350px;
+    font-size: 40px;
+}
+
+.updateButton{
+    font-size: 28px;
+    margin: 10px;
+    font-family: 'Hind Siliguri', sans-serif;
+    background: none;
+    outline: none;
+    color: lime;
+    border: none;
+    cursor: pointer;
+}
+
+.deleteButton{
+    font-size: 28px;
+    font-family: 'Hind Siliguri', sans-serif;
+    background: none;
+    outline: none;
+    color: #E00;
+    border: none;
+    cursor: pointer;
+}
