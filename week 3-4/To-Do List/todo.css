@@ -1,0 +1,71 @@
+.main {
+    background-color: lightpink;
+    color: black;
+    text-align: center;
+    box-sizing: border-box;
+    width: 900px;
+    border: 1px solid hotpink;
+    border-radius: 0.5%;
+    margin: 30px auto;
+    padding: 10px 30px 30px 20px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 50px;
+    padding: 20px;
+}
+
+
+input {
+    width: 500px;
+    height: 50px;
+    border: 2px solid hotpink;
+    border-radius: 2.5%;
+    padding: 5px 10px;
+    margin: 15px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 25px;
+}
+
+.remove, .edit, .add{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: hotpink;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5%;
+    float: right;
+    position: relative;
+    top: 23px;
+    cursor: pointer;
+}
+
+.add:hover {
+    background-color: rgb(10, 138, 10);
+}
+
+.edit:hover {
+    background-color: rgb(106, 106, 226);
+}
+
+.remove:hover {
+    background-color: rgb(167, 7, 7);
+}
+
+.list {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 25px;
+    color: black;
+}
+
+li{
+    padding: 25px;
+    margin: 5px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+}
